@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Двоколонкова сторінка</title>
+</head>
+<body>
+
+    <header>
+        <h1>Лаб1 Варіант 4</h1>
+        <table class="navigation-menu" cellpadding="5">
+            <tr>
+                <td class="Item1">Item1</td>
+                <td class="Item2">Item2</td>
+                <td class="Item3">Item3</td>
+            </tr>
+        </table>        
+    </header>
+
+    <section style="display: flex; flex-direction: column; gap: 15px;">
+        <h2>Title</h2>
+        <div class="block-text">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, atque numquam ipsam dicta at sapiente modi ut eum nisi eos! Possimus cupiditate odit ab magni laboriosam vero nobis voluptates atque!</p>
+            <span>
+                Загальна кількість перестановок з <i>n</i> елементів дорівнює <b>добутку всіх цілих чисел</b> від <i>1</i> до <i>n</i>:<br>
+                P<sub>n</sub> = 1 &bull; 2 &bull; 3 &bull; &hellip; &bull; (n - 2) &bull; (n - 1) &bull; n.
+            </span>
+        </div>
+        <div class="block-list">
+            <dl>
+                <dt>Список дисциплін 3-го курсу</dt>
+                <dd>Системне програмування</dd>
+                <dd>Архітектура комп'ютерів</dd>
+                <dd>Комп'ютерна логіка</dd>
+                <dd>Іноземна мова</dd>
+                <dd>Фізичне виховання та спорт</dd>
+            </dl>
+        </div>
+        <div class="block-table">
+            <table border="1" cellpadding="5">
+                <tr>
+                    <th>Періоди</th>
+                    <th>I</th>
+                    <th>II</th>
+                    <th>III</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>H</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Li</td>
+                    <td>Be</td>
+                    <td>B</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Na</td>
+                    <td>Mg</td>
+                    <td>Al</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>K</td>
+                    <td>Ca</td>
+                    <td>Ga</td>
+                </tr>
+            </table>
+        </div>
+        <div class="block-form">
+            <form action="#" method="get">
+                <table>
+                    <tr>
+                        <td><label for="component">Назва:</label></td>
+                        <td><input type="text" name="component" id="component"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="model">Модель:</label></td>
+                        <td><input type="text" name="model" id="model"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="quantity">Кількість:</label></td>
+                        <td><input type="number" name="quantity" id="quantity"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button>Надіслати</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>            
+        </div>
+        <div class="block-img">
+            <img src="img.jpg" alt="img" width="400px" height="270px" usemap="#img-map">
+            <map name="img-map">
+                <area shape="rect" coords="0,0,200,135" href="https://dl.nure.ua/" alt="" title="Перейти на сайт університету">
+                <area shape="rect" coords="200,0,400,135" href="https://nure.ua/faculty/fakultet-kompyuternoyi-inzheneriyi-ta-upravlinnya" alt="" title="Перейти на сайт кафедри">
+                <area shape="rect" coords="0,135,400,270" href="https://nure.ua/universytet/it-prostir-nure/rozklad-zanjat-hnure" alt="" title="Перейти на розклад">
+            </map>
+        </div>
+    </section>
+
+    <footer><h3>Footer</h3></footer>
+
+</body>
+</html>
